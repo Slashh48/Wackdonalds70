@@ -1,0 +1,155 @@
+
+.links{
+    width: 25%;
+    display: inline-block;
+    position: sticky;
+    bottom: 500px;
+    padding-top: 300px;
+    ul{
+        list-style-type: none;
+    }
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: 200px;
+          }
+          
+          a:hover, a:active {
+            background-color: red;
+          }
+          
+    
+    
+   
+}
+
+.menu-items{
+    width: 65%;
+    display: inline-block;
+    position: relative;
+   h1{
+       text-align: center;
+       font-size: 50px;
+   }
+   h2{
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+   }
+   h4{
+       text-align: center;
+       width: 50%;
+   }
+   img{
+       width: 170px;
+   }
+    
+}
+
+.box{
+    margin-top: 150px;
+}
+.item{
+    display: inline-block;
+    width: 23%;
+    margin-bottom: 200px;
+}
+
+.topbar{
+    width: 5%;
+    display: inline-block;
+    bottom:50px;
+    position:fixed;
+    z-index:150;
+    
+    ul{
+        list-style-type: none;
+    }
+        a:link, a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            width: 100px;
+          }
+          
+          a:hover, a:active {
+            background-color: red;
+          }
+    
+}
+
+
+
+
+//Responsive 
+
+@media only screen and (max-width: 850px) {
+
+    .links{
+        display: none;
+    }
+
+
+
+    .menu-items{
+        width: 80%;
+        display: inline-block;
+        position: relative;
+       h1{
+           text-align: center;
+           font-size: 50px;
+       }
+       h2{
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 40px;
+       }
+       h4{
+           text-align: center;
+           width: 50%;
+           font-size: 14px;
+       }
+       img{
+           width: 90px;
+       }
+    }
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1400px) {
+
+    .links{
+        display: none;
+    }
+
+    .menu-items{
+        width: 80%;
+        display: inline-block;
+        position: relative;
+       h1{
+           text-align: center;
+           font-size: 50px;
+       }
+       h2{
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 40px;
+       }
+       h4{
+           text-align: center;
+           width: 50%;
+           font-size: 14px;
+       }
+       img{
+           width: 150px;
+       }
+    }
+    
+}
